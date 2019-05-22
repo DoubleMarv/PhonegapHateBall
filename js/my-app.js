@@ -21,7 +21,7 @@ $$(document).on('deviceready', function() {
 var ptrContent = $$('.pull-to-refresh-content');
  
 // Add 'refresh' listener on it
-ptrContent.on('refresh', function (e) {
+ptrContent.on('pullend', function (e) {
         // Emulate 2s loading
         setTimeout(function () {
             $$('.printo').html("<span>balls</span>");
