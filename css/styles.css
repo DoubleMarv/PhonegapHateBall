@@ -10,12 +10,17 @@
    See https://github.com/apache/cordova-plugin-statusbar
 */
 
+body{
+font-family: 'Chelsea Market', cursive;
+}
+
 .statusbar-overlay {
     background: #000000;
 }
 
 .ballhomepage{
 	background: #000;
+	background-image: url('../img/fire.jpg');
 }
 
 .ballhomepage p,
@@ -23,4 +28,16 @@
 .ballhomepage h2, 
 .ballhomepage .item-label{
 	color: #fff;
+}
+
+li{
+	list-style-type: none;
+}
+
+.centered{
+	text-align: center;
+}
+
+#main8ball{
+	max-height: 100px;
 }
